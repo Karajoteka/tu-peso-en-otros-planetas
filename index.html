@@ -4,33 +4,39 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
-  <title>Cuánto pesas en otro planeta</title>
+  <title>Cuánto pesas en otros planetas</title>
 </head>
 <body>
   
-  <h1>Tu peso en otro planeta</h1>
+  <h1>Calcula tu peso en otros planetas</h1>
 
-  <p class="weight">¿Cuál es tu peso?</p>
-  <input type="number" id="user-weight">
+  <form action="">
 
-  <p class="planet-selection">Elige un planeta</p>
-  <select name="Otro planeta" id="planet">
-    <option value=""></option>
-    <option value="mercury">Mercurio</option>
-    <option value="venus">Venus</option>
-    <option value="mars">Marte</option>
-    <option value="jupiter">Júpiter</option>
-    <option value="saturn">Saturno</option>
-    <option value="uranus">Urano</option>
-    <option value="neptune">Neptuno</option>
-    <option value="moon">Luna</option>
-  </select>
+    <p class="weight">¿Cuál es tu peso?</p>
+    <input type="number" id="user-weight">
 
-  <button id="btn">Calcular</button>
+    <p class="planet-selection">Elige un planeta</p>
+    <select name="Otro planeta" id="planet">
+      <option value="mercury">Mercurio</option>
+      <option value="venus">Venus</option>
+      <option value="mars">Marte</option>
+      <option value="jupiter">Júpiter</option>
+      <option value="saturn">Saturno</option>
+      <option value="uranus">Urano</option>
+      <option value="neptune">Neptuno</option>
+      <option value="moon">Luna</option>
+    </select>
 
-  <p id="result"></p>
+    <button id="btn">Calcular</button>
 
+    <p id="result"></p>
+
+  </form>
+ 
   <script src="./main.js"></script>
 </body>
 </html>

@@ -28,7 +28,9 @@ let finalWeight = 0;
 
 button.addEventListener('click', calcNewWeight);
 
-function calcNewWeight() {
+function calcNewWeight(event) {
+  event.preventDefault();
+
   const weight = userWeight.value;
 
   if (planet.value === "mercury") {
@@ -64,6 +66,10 @@ function calcNewWeight() {
     pResult.innerHTML = 'Tu peso en ' + planetName + ' es <strong>' + finalWeight.toFixed(0) +  ' kilos</strong>';
     finalWeight = parseFloat(finalWeight.toFixed(0));
   }  
+
+  if (weight == '') {
+    pResult.innerHTML = 'Por favor, indica tu peso';
+  }
 }
 
 

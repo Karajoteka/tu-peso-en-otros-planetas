@@ -3,6 +3,70 @@
   margin: 0;
   padding: 0;
 }
+
 html {
   font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://i.postimg.cc/hPXL8Sy1/Dream-Background.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Inconsolata', monospace;
+  color: white;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-size: 2.6rem;
+}
+
+form {
+  padding: 0 50px;
+}
+
+p {
+  font-size: 2.2rem;
+  color: white;
+  margin-bottom: 10px;
+}
+
+#user-weight {
+  height: 30px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.planet-selection {
+  margin-top: 30px;
+}
+
+#planet {
+  margin-bottom: 40px;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+}
+
+#btn {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 250px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: blue;
+  color: orange;
 }
