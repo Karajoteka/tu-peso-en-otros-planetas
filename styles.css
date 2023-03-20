@@ -9,20 +9,25 @@ html {
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-  background-image: url(https://i.postimg.cc/hPXL8Sy1/Dream-Background.jpg);
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center;
   font-family: 'Inconsolata', monospace;
+  text-align: center;
   color: white;
   overflow-x: hidden;
   overflow-y: hidden;
 }
 
+main {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(1,33,68);
+  background-image: url(https://i.postimg.cc/hPXL8Sy1/Dream-Background.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 h1 {
-  text-align: center;
   margin-top: 80px;
   margin-bottom: 50px;
   font-size: 2.6rem;
@@ -34,6 +39,7 @@ form {
 
 p {
   font-size: 2.2rem;
+  font-weight: 700;
   color: white;
   margin-bottom: 10px;
 }
@@ -57,6 +63,9 @@ p {
   border-radius: 10px;
   background-color: white;
 }
+#planet:hover {
+  cursor: pointer;
+}
 
 #btn {
   display: block;
@@ -70,3 +79,7 @@ p {
   background-color: blue;
   color: orange;
 }
+#btn:hover {
+  cursor: pointer;
+}
+

@@ -11,32 +11,36 @@
   <title>Cuánto pesas en otros planetas</title>
 </head>
 <body>
+
+  <main>
+
+    <h1>Calcula tu peso en otros planetas</h1>
+
+      <form action="">
+
+        <p class="weight">¿Cuál es tu peso?</p>
+        <input type="number" id="user-weight">
+
+        <p class="planet-selection">Elige un planeta</p>
+        <select name="Otro planeta" id="planet">
+          <option value="mercury">Mercurio</option>
+          <option value="venus">Venus</option>
+          <option value="mars">Marte</option>
+          <option value="jupiter">Júpiter</option>
+          <option value="saturn">Saturno</option>
+          <option value="uranus">Urano</option>
+          <option value="neptune">Neptuno</option>
+          <option value="moon">Luna</option>
+        </select>
+
+        <button id="btn">Calcular</button>
+
+        <p id="result"></p>
+
+      </form>
+
+  </main>
   
-  <h1>Calcula tu peso en otros planetas</h1>
-
-  <form action="">
-
-    <p class="weight">¿Cuál es tu peso?</p>
-    <input type="number" id="user-weight">
-
-    <p class="planet-selection">Elige un planeta</p>
-    <select name="Otro planeta" id="planet">
-      <option value="mercury">Mercurio</option>
-      <option value="venus">Venus</option>
-      <option value="mars">Marte</option>
-      <option value="jupiter">Júpiter</option>
-      <option value="saturn">Saturno</option>
-      <option value="uranus">Urano</option>
-      <option value="neptune">Neptuno</option>
-      <option value="moon">Luna</option>
-    </select>
-
-    <button id="btn">Calcular</button>
-
-    <p id="result"></p>
-
-  </form>
- 
   <script src="./main.js"></script>
 </body>
 </html>
