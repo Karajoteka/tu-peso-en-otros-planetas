@@ -78,6 +78,7 @@ p {
   border-radius: 10px;
   background-color: blue;
   color: orange;
+  font-weight: 700;
 }
 #btn:hover {
   cursor: pointer;
