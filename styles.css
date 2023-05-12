@@ -12,17 +12,16 @@ body {
   font-family: 'Inconsolata', monospace;
   text-align: center;
   color: white;
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 main {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: auto;
+  margin: 0 auto;
   background: rgb(1,33,68);
   background-image: url(https://i.postimg.cc/hPXL8Sy1/Dream-Background.jpg);
-  background-size: auto;
+  background-size: 100vh;
   background-repeat: no-repeat;
   background-position: center;
 }
