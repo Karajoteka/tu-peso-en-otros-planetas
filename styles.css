@@ -10,6 +10,7 @@ html {
 
 body {
   font-family: 'Inconsolata', monospace;
+  background: rgb(1,33,68);
   text-align: center;
   color: white;
 }
@@ -18,10 +19,9 @@ main {
   position: absolute;
   width: 100vw;
   height: auto;
-  margin: 0 auto;
-  background: rgb(1,33,68);
+  margin: 0 auto; 
   background-image: url(https://i.postimg.cc/hPXL8Sy1/Dream-Background.jpg);
-  background-size: 100vh;
+  background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -39,11 +39,11 @@ form {
 p {
   font-size: 2.2rem;
   font-weight: 700;
-  color: white;
   margin-bottom: 10px;
 }
 
 #user-weight {
+  width: 80px;
   height: 30px;
   padding: 10px;
   border: none;
